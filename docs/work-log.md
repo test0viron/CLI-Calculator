@@ -17,3 +17,4 @@
         - If operation "/" - second number == 0 - You can't divide by 0
 ### 9. Repaired code by adding while loop with if instruction inside main function.
 ### 10. Sent my calculator for check to ChatGPT 
+### 11. Checked and edited mistakes pointed out by ChatGPT
