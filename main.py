@@ -16,8 +16,8 @@ def main():
         if operation == "/" and second_number == 0:
             print("You can't divide by zero")
             continue
-        else:
-            break
+
+        break
 
     result = calculations.calculator_operation(first_number, second_number, operation)
 
