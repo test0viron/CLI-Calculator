@@ -4,7 +4,7 @@ def main():
 
     print("=== Welcome to the CLI calculator ===")
     print("This calculator lets you add(+), subtract(-), multiply(*) and divide(/) your numbers.")
-    print("Numbers that you can operate on are in (-100) to (100) range.")
+    print("Numbers that you can operate on are in <-100, 100> range.")
     print("")
 
     operation = inputs.get_operation("Enter operation: ")

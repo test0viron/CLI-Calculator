@@ -16,6 +16,7 @@
         - Empty number - Number cannot be empty
         - All spaces - Number cannot be empty
         - -101 and 101 - Chosen number not in range <-100, 100>
+        - -100 and 100 - both work without mistakes
         - If operation "/" - second number == 0 - You can't divide by 0
     - Operations - All work without problems
 ### 9. Repaired code by adding while loop with if instruction inside main function.
