@@ -4,7 +4,7 @@
 
 CLI Calculator is my first python project after month and a half of learning python.
 
-Every segment of this program will be documented in docs/work-log.md, local repository and pushed to GitHub repository.
+Every segment of this program was documented in docs/work-log.md, local repository and pushed to GitHub repository.
 
 ## Installation
 
