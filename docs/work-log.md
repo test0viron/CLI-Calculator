@@ -9,5 +9,11 @@
 ### 6. Imported inputs.py and calculations.py modules to main.py and created program executing function inside
 ### 7. Created prints UX prints for main.py
 ### 8. Did tests after which I found out about not handled ZeroDivisionError
+    - Operation input
+        - "" - Operation cannot be empty
+        - Other then in allowed operations - Operation not in allowed operations
+    - Number input
+        - -101 and 101 - Chosen number not in range <-100, 100>
+        - If operation "/" - second number == 0 - You can't divide by 0
 ### 9. Repaired code by adding while loop with if instruction inside main function.
 ### 10. Sent my calculator for check to ChatGPT 
