@@ -29,7 +29,5 @@ def main():
     print("")
     print("=== Thanks for using our calculator ===")
 
-    return first_number, second_number, operation, result
-
 if __name__ == "__main__":
-    first_number, second_number, operation, result = main()
+    main()
