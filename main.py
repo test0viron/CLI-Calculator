@@ -21,6 +21,12 @@ def main():
 
     result = calculations.calculator_operation(first_number, second_number, operation)
 
+    print("")
+    print(f'Result of "{operation}" operation on {first_number} and {second_number} is {result:.3f}')
+
+    print("")
+    print("=== Thanks for using our calculator ===")
+
     return first_number, second_number, operation, result
 
 first_number, second_number, operation, result = main()
