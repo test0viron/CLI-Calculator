@@ -2,7 +2,7 @@ def get_number(message):
 
     while True:
 
-        number = input(message)
+        number = input(message).strip()
 
         if not number:
             print("Number cannot be empty. Please enter a number.")
@@ -28,7 +28,7 @@ def get_operation(message):
 
     while True:
 
-        operation = input(message)
+        operation = input(message).strip()
 
         if not operation:
             print("Operation cannot be empty.")
