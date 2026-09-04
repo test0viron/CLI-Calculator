@@ -39,9 +39,3 @@ def get_operation(message):
             continue
 
         return operation
-
-if __name__ == "__main__":
-
-    first_number = get_number("First number: ")
-    second_number = get_number("Second number: ")
-    operation = get_operation("Operation: ")
