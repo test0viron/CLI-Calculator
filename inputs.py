@@ -12,7 +12,7 @@ def get_number(message):
             continue
 
         if not -100 <= number_float <= 100:
-            print("Chosen number not in range (-100, 100)")
+            print("Chosen number not in range <-100, 100>.")
             continue
 
         return number_float
@@ -27,11 +27,11 @@ def get_operation(message):
         operation = input(message)
 
         if not operation:
-            print("Operation cannot be empty")
+            print("Operation cannot be empty.")
             continue
 
         if operation not in allowed_operations:
-            print(f'Operation not in allowed operations\n{allowed_operations}')
+            print(f'Operation not in allowed operations.\n{allowed_operations}.')
             continue
 
         return operation
