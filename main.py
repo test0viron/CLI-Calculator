@@ -7,9 +7,17 @@ print("")
 
 def main():
 
-    first_number = inputs.get_number("Enter first number: ")
-    second_number = inputs.get_number("Enter second number: ")
     operation = inputs.get_operation("Enter operation: ")
+    first_number = inputs.get_number("Enter first number: ")
+
+    while True:
+        second_number = inputs.get_number("Enter second number: ")
+
+        if operation == "/" and second_number == 0:
+            print("You can't divide by zero")
+            continue
+        else:
+            break
 
     result = calculations.calculator_operation(first_number, second_number, operation)
 
