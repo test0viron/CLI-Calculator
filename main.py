@@ -29,9 +29,5 @@ def main():
 
     return first_number, second_number, operation, result
 
-first_number, second_number, operation, result = main()
-
-print(f'Result of "{operation}" operation on {first_number} and {second_number} is {result:.3f}')
-
-print("")
-print("=== Thanks for using our calculator ===")
+if __name__ == "__main__":
+    first_number, second_number, operation, result = main()
