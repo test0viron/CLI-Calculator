@@ -13,8 +13,11 @@
         - "" - Operation cannot be empty
         - Other then in allowed operations - Operation not in allowed operations
     - Number input
+        - Empty number - Number cannot be empty
+        - All spaces - Number cannot be empty
         - -101 and 101 - Chosen number not in range <-100, 100>
         - If operation "/" - second number == 0 - You can't divide by 0
+    - Operations - All work without problems
 ### 9. Repaired code by adding while loop with if instruction inside main function.
 ### 10. Sent my calculator for check to ChatGPT 
 ### 11. Checked and edited mistakes pointed out by ChatGPT

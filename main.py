@@ -7,8 +7,6 @@ def main():
     print("Numbers that you can operate on are in (-100) to (100) range.")
     print("")
 
-def main():
-
     operation = inputs.get_operation("Enter operation: ")
     first_number = inputs.get_number("Enter first number: ")
 
