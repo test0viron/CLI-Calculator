@@ -4,6 +4,10 @@ def get_number(message):
 
         number = input(message)
 
+        if not number:
+            print("Number cannot be empty. Please enter a number.")
+            continue
+
         try:
             number_float = float(number)
 
